@@ -1,0 +1,28 @@
+_id: req_11150331834245c5955bd3d01ab81f6f
+type: Request
+parentId: fld_58f0be3bfe9e46758ad21c14b1a4bffb
+modified: 1694466334499
+created: 1694466275118
+url: "{{ _.local8080 }}/products"
+name: get all products
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: User-Agent
+    value: insomnia/2023.5.8
+    id: pair_8118f4eec1334a598156baf5f70aa6f3
+  - id: pair_204044dbc1eb485fbf2b586e106be5f4
+    name: Authorization
+    value: "{{ _.authorization }}"
+    description: ""
+authentication: {}
+metaSortKey: -1694466275118
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

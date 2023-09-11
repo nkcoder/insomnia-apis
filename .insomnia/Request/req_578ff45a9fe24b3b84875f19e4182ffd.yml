@@ -1,0 +1,40 @@
+_id: req_578ff45a9fe24b3b84875f19e4182ffd
+type: Request
+parentId: fld_5b5ea1274e334974bb3a8dd4836e2c36
+modified: 1694466348666
+created: 1694385857655
+url: "{{ _.local8080 }}/users/1"
+name: update user
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"userId": 1,
+    	"userName": "Daniel new",
+    	"email": "daniel.new@test.com",
+    	"password": "daniel.new@!",
+    	"userType": "ADMIN.NEW"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_030e6db621ee42fb9ee7057a69bacb8f
+  - name: User-Agent
+    value: insomnia/2023.5.8
+    id: pair_8ce7aea0a12d4b6f956bb5d810b318b4
+  - id: pair_cfc974f32d6548d68ec801b797da2ae2
+    name: Authorization
+    value: "{{ _.authorization }}"
+    description: ""
+authentication: {}
+metaSortKey: -1694420360622
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

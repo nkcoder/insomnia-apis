@@ -1,0 +1,33 @@
+_id: req_da2165c4185c43c1afa6a7ef52f06093
+type: Request
+parentId: fld_5b5ea1274e334974bb3a8dd4836e2c36
+modified: 1694464326934
+created: 1694211012044
+url: "{{ _.local8080 }}/users/register"
+name: user register
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"userName": "Daniel5",
+    	"email": "daniel5@gmail.com",
+    	"password": "testpass5",
+    	"userType": "NORMAL"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication: {}
+metaSortKey: -1694420360722
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

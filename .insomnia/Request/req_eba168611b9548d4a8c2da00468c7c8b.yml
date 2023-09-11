@@ -1,0 +1,44 @@
+_id: req_eba168611b9548d4a8c2da00468c7c8b
+type: Request
+parentId: fld_58f0be3bfe9e46758ad21c14b1a4bffb
+modified: 1694466340389
+created: 1694420366556
+url: "{{ _.local8080 }}/products"
+name: create a product
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"productId": 1,
+    	"sellerId": 1,
+    	"categoryId": 1,
+    	"productName": "Lady's bag",
+    	"description": "great bag for leisure",
+    	"price": 105.1,
+    	"stockQuantity": 20,
+    	"imageURL": "bag.jpg"
+    	
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_900b49cbca5b4f2a87fc71060d404e10
+  - name: User-Agent
+    value: insomnia/2023.5.8
+    id: pair_b9da0c32495041ff88973da09bbabf5f
+  - id: pair_d1c11c8432124b6d8b4e3e2fe13444ba
+    name: Authorization
+    value: "{{ _.authorization }}"
+    description: ""
+authentication: {}
+metaSortKey: -1694420366556
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

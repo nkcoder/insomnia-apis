@@ -1,0 +1,31 @@
+_id: req_aace4f50bdbc42d881670daa31cb90af
+type: Request
+parentId: wrk_f34a44f2547a49398682a114273a3dde
+modified: 1694465540620
+created: 1694325244368
+url: "{{ _.local8080 }}/auth/login"
+name: login
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"username": "Daniel",
+    	"password": "daniel.pwd"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication: {}
+metaSortKey: -1694325244368
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

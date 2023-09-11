@@ -1,0 +1,17 @@
+_id: env_0e34c102fb5ebdf05c4ae8af400ba1b726b0f8dd
+type: Environment
+parentId: wrk_f34a44f2547a49398682a114273a3dde
+modified: 1694466322929
+created: 1694211005883
+name: Base Environment
+data:
+  local8080: http://localhost:8080
+  authorization: Bearer
+    eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJEYW5pZWwiLCJpYXQiOjE2OTQ0NjYyNDcsImV4cCI6MTY5NDQ2OTg0N30.4nQOa1E1J6pE-ZspUI7yNxjng0zVKvi2YnenHb6PxGg
+dataPropertyOrder:
+  "&":
+    - local8080
+    - authorization
+color: null
+isPrivate: false
+metaSortKey: 1694211005883
